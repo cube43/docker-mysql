@@ -1,2 +1,12 @@
 [mysqld]  
 sql_mode = "STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+default_storage_engine=innodb
+character-set-server=utf8
+skip-log-bin
+log-output=NONE
+slow-query-log=0
+innodb_flush_log_at_trx_commit=2
+innodb_flush_method=O_DIRECT
+innodb_log_buffer_size=3M
+innodb_buffer_pool_size=180M
+innodb_buffer_pool_load_at_startup=ON
