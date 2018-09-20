@@ -10,3 +10,4 @@ innodb_flush_method=O_DIRECT
 innodb_log_buffer_size=3M
 innodb_buffer_pool_size=180M
 innodb_buffer_pool_load_at_startup=ON
+max_allowed_packet=500M
